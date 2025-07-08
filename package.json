@@ -10,7 +10,7 @@
     "knex": "node --import tsx ./node_modules/.bin/knex",
     "lint": "eslint src --ext .ts --fix",
     "test": "vitest",
-    "build": "tsup src -d build --exclude '**/*.test.ts' --exclude '**/*.spec.ts' --exclude '**/tests/**'"
+    "build": "tsup src -d build --clean --minify"
   },
   "keywords": [],
   "author": "",
